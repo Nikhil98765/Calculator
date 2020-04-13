@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script src = "./button/model.js" type="text/javascript"></script>
+    <script src = "./button/view.js" type="text/javascript" ></script>
+    <script src = "./button/controller.js" type="text/javascript"></script>
+
+    <script src = "./display/model.js" type="text/javascript"></script>
+    <script src = "./display/view.js" type="text/javascript" ></script>
+    <script src = "./display/controller.js" type="text/javascript"></script>
+
+    <script src = "./number/model.js" type="text/javascript"></script>
+    <script src = "./number/view.js" type="text/javascript" ></script>
+    <script src = "./number/controller.js" type="text/javascript"></script>
+
+    <script src = "./operator/model.js" type="text/javascript"></script>
+    <script src = "./operator/view.js" type="text/javascript" ></script>
+    <script src = "./operator/controller.js" type="text/javascript"></script>
+
+    <script src = './calculator/model.js' type="text/javascript" ></script>
+    <script src="./calculator/view.js"  type="text/javascript" ></script>
+    <script src="./calculator/controller.js" type="text/javascript"></script>
+
+    <link rel = "stylesheet" href = "styles.css">
+
+  </head>
+  <body>
+
+    <script type="text/javascript">
+      var calc = 0;
+      var addCalcInstance = function(){
+          new CalculatorController(calc++);
+          }
+
+    </script>
+
+
+  <button id = "55" onclick="addCalcInstance()">Create Instance</button>
+
+
+
+  </body>
+</html>

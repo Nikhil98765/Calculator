@@ -1,0 +1,164 @@
+
+
+.calc {
+
+    display: block;
+    height: 350px;
+    width: 280px;
+    background-color : black;
+    border: solid 1px #3A4655;
+    box-shadow: 0 8px 50px -7px black;
+    margin : 50px auto;
+
+}
+
+.calc-display{
+
+    height: 100px;
+    width: 280px;
+    background-color: beige;
+
+}
+
+.calc-display input {
+
+           background-color: #303030;
+               border: black;
+               height: 100px;
+               width: 280px;
+               font-size : 20px;
+               text-align: right;
+               color : white;
+
+}
+
+.calc-btns {
+
+    height: 250px;
+    width: 280px;
+    background-color: black;
+    float : left;
+    display : inline-block;
+
+}
+
+.number-buttons {
+
+    display: inline-block;
+    float : left;
+    height: 200px;
+    width: 210px ;
+    color : rgb(128,128,128);
+
+}
+
+.number-buttons button {
+     font-size: 16px;
+       /*margin: 4px 2px;*/
+       cursor: pointer;
+       width:70px;
+       height:50px;
+         background-color: black;
+         color: black;
+         border: 1px solid #555555;
+         color:white;
+
+         display:block-inline;
+}
+
+
+
+.number-buttons button:hover{
+
+     background-color:grey;
+     color:white;
+
+}
+
+
+
+
+.operator-buttons {
+
+    display: inline-block;
+    float: right;
+    height: 250px;
+    width: 70px;
+
+
+}
+
+.operator-buttons :hover {
+    background-color: #d3d3d3;
+}
+
+.operator-buttons button {
+
+       font-size: 16px;
+              /*margin: 4px 2px;*/
+              cursor: pointer;
+              width:70px;
+              height:50px;
+
+                border: 1px solid #555555;
+                color:white;
+
+                display:block-inline;
+                background-color : #404040;
+                    color : white;
+                    font-size: 16px;
+
+
+   }
+
+
+
+.operator-buttons button:hover{
+
+        background-color:grey;
+           color:white;
+
+   }
+
+
+
+.function-buttons {
+
+    height: 50px;
+    width: 210px;
+    color : rgb(128,128,128);
+    display : inline-block;
+    float : left;
+
+}
+
+.function-buttons :hover {
+     background-color:grey;
+        color:white;
+}
+
+.function-buttons button {
+
+  font-size: 16px;
+        /*margin: 4px 2px;*/
+        cursor: pointer;
+        width:70px;
+        height:50px;
+
+          border: 1px solid #555555;
+          color:white;
+
+          display:block-inline;
+          background-color : #404040;
+              color : white;
+              font-size: 10px;
+
+          }
+
+#op-btn-4 {
+  background-color : #315B7E;
+}
+
+#op-btn-4:hover {
+  background-color : #1E90FF;
+}
